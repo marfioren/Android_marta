@@ -8,6 +8,7 @@ import android.support.v7.app.AppCompatActivity;
 
 public class PokretanjeModula extends AppCompatActivity{
     String ime;
+    String vrsta;
      protected void pokreniStvaranjeGrafova(){
          Intent intent = new Intent(this, PrikazGrafova.class);
          intent.putExtra("imeStanice",this.ime);
@@ -26,8 +27,14 @@ public class PokretanjeModula extends AppCompatActivity{
         super.onCreate(savedInstanceState);
 
         Intent intent = getIntent();
-        ime = intent.getStringExtra("imeStanice");
-
-        pokreniIspisTeksta();
+        Bundle extras = getIntent().getExtras();
+        ime = extras.getString("imeStanice");
+        vrsta = extras.getString("vrsta");
+        if(vrsta.contains("Tekst")) {
+            pokreniIspisTeksta();
+        }
+        else{
+            pokreniStvaranjeGrafova();
+        }
     }
 }
