@@ -11,6 +11,7 @@
             <option value="$PROJECT_DIR$/alarm" />
             <option value="$PROJECT_DIR$/app" />
             <option value="$PROJECT_DIR$/grafovi" />
+            <option value="$PROJECT_DIR$/interfaces" />
           </set>
         </option>
         <option name="resolveModulePerSourceSet" value="false" />
