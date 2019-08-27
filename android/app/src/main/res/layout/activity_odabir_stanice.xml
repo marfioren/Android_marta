@@ -41,7 +41,15 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.549" />
-
+    <RadioGroup
+        android:layout_width="160dp"
+        android:layout_height="113dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.849"
+        android:id="@+id/RGroup">
     <RadioButton
         android:id="@+id/OdabirTeks"
         android:layout_width="160dp"
@@ -67,5 +75,5 @@
         app:layout_constraintVertical_bias="0.849"
 />
 
-
+    </RadioGroup>
 </android.support.constraint.ConstraintLayout>
