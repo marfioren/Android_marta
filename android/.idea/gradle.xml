@@ -10,6 +10,9 @@
             <option value="$PROJECT_DIR$" />
             <option value="$PROJECT_DIR$/alarm" />
             <option value="$PROJECT_DIR$/app" />
+            <option value="$PROJECT_DIR$/grafoviprikaz" />
+            <option value="$PROJECT_DIR$/interfaces" />
+            <option value="$PROJECT_DIR$/tektprikaz" />
           </set>
         </option>
         <option name="resolveModulePerSourceSet" value="false" />

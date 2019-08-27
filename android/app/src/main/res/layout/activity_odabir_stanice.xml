@@ -42,5 +42,30 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.549" />
 
+    <RadioButton
+        android:id="@+id/OdabirTeks"
+        android:layout_width="160dp"
+        android:layout_height="43dp"
+        android:text="Tekst ispis"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.749"
+
+        />
+
+    <RadioButton
+        android:id="@+id/OdabirGraf"
+        android:layout_width="160dp"
+        android:layout_height="43dp"
+        android:text="Prikaz grafova"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.849"
+/>
+
 
 </android.support.constraint.ConstraintLayout>
