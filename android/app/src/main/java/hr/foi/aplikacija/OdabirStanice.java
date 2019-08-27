@@ -5,8 +5,9 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.EditText;
+import hr.foi.interfaces.PrijenosPodataka;
+public class OdabirStanice extends AppCompatActivity{
 
-public class OdabirStanice extends AppCompatActivity {
 
     @Override
 
@@ -24,6 +25,7 @@ public class OdabirStanice extends AppCompatActivity {
         Intent intent = new Intent(this, Trenutno_stanje.class);
         intent.putExtra("imeStanice","12station34-12station34-12testuuid");
         startActivity(intent);
+
     }
 
     public void Stanica2_podaci(View view) {

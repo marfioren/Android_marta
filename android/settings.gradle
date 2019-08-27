@@ -1,1 +1,1 @@
-include ':app', ':alarm', ':grafovi', ':interfaces'
+include ':app', ':alarm', ':interfaces', ':grafoviprikaz'

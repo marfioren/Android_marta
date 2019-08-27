@@ -8,6 +8,7 @@ import android.widget.EditText;
 
 public class MainActivity extends AppCompatActivity {
     EditText UserName_log, Password_log;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
