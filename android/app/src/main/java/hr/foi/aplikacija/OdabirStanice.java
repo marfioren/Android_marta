@@ -5,7 +5,7 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.EditText;
-import hr.foi.interfaces.PrijenosPodataka;
+import hr.foi.interfaces.PokretanjeModula;
 public class OdabirStanice extends AppCompatActivity{
 
 
@@ -22,8 +22,10 @@ public class OdabirStanice extends AppCompatActivity{
     }
 
     public void Stanica1_podaci(View view) {
-        Intent intent = new Intent(this, Trenutno_stanje.class);
-        intent.putExtra("imeStanice","12station34-12station34-12testuuid");
+
+
+        Intent intent = new Intent(this, PokretanjeModula.class);
+        intent.putExtra("imeStanice","ca4bb982-ceb0-4c07-b9f2-848351928903");
         startActivity(intent);
 
     }

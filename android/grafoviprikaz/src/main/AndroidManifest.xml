@@ -1,2 +1,16 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="hr.foi.grafoviprikaz" />
+    package="hr.foi.grafoviprikaz">
+<uses-permission android:name="android.permission.INTERNET" />
+    <application>
+
+        <activity android:name=".PrikazGrafova">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+
+    </application>
+    </manifest>
