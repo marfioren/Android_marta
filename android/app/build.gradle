@@ -34,4 +34,6 @@ dependencies {
     implementation 'android.arch.work:work-runtime:1.0.0-alpha08'
     implementation project(':alarm')
     implementation project(':interfaces')
+    implementation project(':grafoviprikaz')
+    implementation project(':tektprikaz')
 }

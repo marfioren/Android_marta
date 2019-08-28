@@ -20,7 +20,6 @@ public class App extends Application {
                     CHANNEL_ID,
                      "Example sc",
                     NotificationManager.IMPORTANCE_DEFAULT
-
             );
             NotificationManager manager = getSystemService(NotificationManager.class);
             manager.createNotificationChannel(serviceChannel);
