@@ -15,6 +15,7 @@ public class ModuleManager {
     private AppCompatActivity activity;
     private List<interfaceModuli> listaModula;
     private static ModuleManager instance;
+
     private ModuleManager(){
         listaModula = new ArrayList<>();
         listaModula.add(new grafPrikaz());
@@ -32,10 +33,12 @@ public class ModuleManager {
    this.activity=activity;
 
     }
-  public void pokreniModul(ViewGroup parent) {
+
+
+
+  public void pokreniModul(ViewGroup parent, List<String> pod, List<String> podv) {
       interfaceModuli selectedItem = listaModula.get(0);
-      List<String> pod= new ArrayList<String>();
-      List<String> podv=new ArrayList<String>();
+
 
       selectedItem.setData(pod, podv);
 

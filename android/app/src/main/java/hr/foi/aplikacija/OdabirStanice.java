@@ -39,9 +39,14 @@ public class OdabirStanice extends AppCompatActivity{
          provjerir();
         setContentView(R.layout.fragmenti);
         ModuleManager mm= ModuleManager.getInstance();
+
         ViewGroup parent = (ViewGroup) findViewById(R.id.parent);
 mm.setActivity(this);
-mm.pokreniModul(parent);
+        DohvaćanjePodataka podaci= new DohvaćanjePodataka();
+        podaci.ImeStanice("c76a33ba-8f0e-43b8-a8b8-508fa8ed49a0");
+        podaci.dohvatiPodatke();
+
+mm.pokreniModul(parent, podaci.pod, podaci.podv);
 
     }
 
