@@ -46,9 +46,9 @@ public class OdabirStanice extends AppCompatActivity{
 
    }
     public void Stanica1_podaci(View view) {
-         provjerir();
+        provjerir();
         setContentView(R.layout.fragmenti);
-
+        pokreniManager("12station34-12station34-12testuuid");
     }
 
     public void Stanica2_podaci(View view) {
