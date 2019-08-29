@@ -36,14 +36,10 @@ public class ModuleManager {
 
 
 
-  public void pokreniModul(ViewGroup parent, List<String> pod, List<String> podv) {
-      interfaceModuli selectedItem = listaModula.get(0);
-
-
+  public void pokreniModul(ViewGroup parent, List<String> pod, List<String> podv, int vrsta) {
+      interfaceModuli selectedItem = listaModula.get(vrsta);
       selectedItem.setData(pod, podv);
-
       FragmentManager fm = activity.getSupportFragmentManager();
-
       fm.beginTransaction()
               .replace(R.id.fragmenttest, selectedItem.getFragment())
               .commit();
